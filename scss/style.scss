@@ -507,7 +507,7 @@ img {
             @include trans-duration(500ms);
             height: 60px;
             .nav-brand {
-                max-width: 70px;
+                max-width: 120px;
             }
         }
         .classynav ul li a {
@@ -593,6 +593,9 @@ img {
             &:hover,
             &:focus {
                 background-color: $hover-color;
+            }
+            &:hover {
+                color: white;
             }
             @media #{$breakpoint-xs} {
                 @include flex(0 0 40px);
@@ -1296,14 +1299,16 @@ img {
         border: 1px solid $border-color;
         display: inline-block;
         font-size: 13px;
-        color: $secondary-color;
         text-transform: uppercase;
         letter-spacing: 1px;
         line-height: 42px;
+        color: $heading-color;
         text-align: center;
+        background-color: $hover-color;
         &:hover,
         &:focus {
-            color: $heading-color;
+            color: white;
+            background-color: $hover-hover-color;
         }
     }
 }
@@ -1330,12 +1335,8 @@ img {
             margin-bottom: 0;
             line-height: 40px;
             padding: 0 15px;
-            display: inline-block;
-            color: $dark-color;
-            span {
-                border-bottom: 1px solid $dark-color;
-                display: inline-block;
-            }
+            color: $white-color;
+            background: $bg-blue;
         }
     }
     .about-thumbnail {

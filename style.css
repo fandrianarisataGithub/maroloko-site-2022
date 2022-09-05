@@ -487,7 +487,7 @@ img {
   height: 60px;
 }
 .header-area .maroloko-main-menu .classy-navbar .nav-brand {
-  max-width: 70px;
+  max-width: 120px;
 }
 .header-area .maroloko-main-menu .classynav ul li a {
   padding: 0 15px;
@@ -601,6 +601,12 @@ img {
 .hero-post-slides .owl-nav .owl-next:hover,
 .hero-post-slides .owl-nav .owl-next:focus {
   background-color: #d1bb95;
+}
+.hero-area .owl-nav .owl-prev:hover,
+.hero-area .owl-nav .owl-next:hover,
+.hero-post-slides .owl-nav .owl-prev:hover,
+.hero-post-slides .owl-nav .owl-next:hover {
+  color: white;
 }
 @media only screen and (max-width:767px) {
   .hero-area .owl-nav .owl-prev,
@@ -1390,14 +1396,16 @@ img {
   border: 1px solid #ebebeb;
   display: inline-block;
   font-size: 13px;
-  color: #a6a6a6;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 42px;
+  color: #191919;
   text-align: center;
+  background-color: #d1bb95;
 }
 .maroloko-pager li a:hover, .maroloko-pager li a:focus {
-  color: #191919;
+  color: white;
+  background-color: #c4b293;
 }
 
 /* :: 15.0 Sidebar Area CSS */
@@ -1422,12 +1430,8 @@ img {
   margin-bottom: 0;
   line-height: 40px;
   padding: 0 15px;
-  display: inline-block;
-  color: #141414;
-}
-.single-widget-area .widget-title h6 span {
-  border-bottom: 1px solid #141414;
-  display: inline-block;
+  color: #ffffff;
+  background: #505fd1;
 }
 .single-widget-area .about-thumbnail {
   width: 200px;
